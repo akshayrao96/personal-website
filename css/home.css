@@ -1,6 +1,6 @@
 .container {
   display: grid;
-  background-color: #C4A484;
+  background-color: #EAF6FF;
   grid-template-columns: 1fr 2fr 3fr 1fr;
   align-items: center;
   justify-content: center;
