@@ -51,3 +51,9 @@
 .contact-link:hover .contact-icon {
   transform: scale(1.5);
 }
+
+@media (max-width: 601px) {
+  .contact-icon {
+    height: 20px;
+  }
+}

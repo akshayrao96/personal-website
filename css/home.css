@@ -53,3 +53,19 @@
   font-size: 1.4rem;
   color: #333;
 }
+
+@media (max-width: 601px) {
+
+
+  .profile-pic-container,
+  .text-container,
+  .column-filler {
+    grid-column: auto;
+  }
+
+  .profile-pic {
+    width: 120%;
+    height: auto;
+    margin-right: 0;
+  }
+}

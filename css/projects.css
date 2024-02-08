@@ -58,3 +58,15 @@ h2 {
   margin: 1.5rem auto;
   box-shadow: 0 0 8px #FFD700;
 }
+
+@media (max-width: 601px) {
+  body {
+    font-size: 16px;
+  }
+
+  .container h1,
+  .container p,
+  .project ul {
+    padding: 0 10px;
+  }
+}

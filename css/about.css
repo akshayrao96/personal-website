@@ -73,3 +73,18 @@ h2 {
 .image-style:hover {
   border: 4px solid lightgreen;
 }
+
+@media (max-width: 601px) {
+  .image-style {
+    width: 50%;
+    margin: 10px auto;
+  }
+
+  .divider {
+    width: 100%;
+  }
+
+  .interests li {
+    list-style-type: square;
+  }
+}
