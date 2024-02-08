@@ -1,0 +1,75 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: auto;
+  min-height: 100vh;
+  background-color: #EAF6FF;
+  text-align: center;
+}
+
+h1,
+h2 {
+  font-size: 2.5rem;
+  color: #333;
+  margin: 1rem 0;
+  width: 100%;
+}
+
+.bio {
+  font-size: 1.5rem;
+  color: #333;
+  margin-bottom: 1.5rem;
+  text-align: center;
+  width: 80%;
+}
+
+.interests {
+  padding: 0;
+  margin-bottom: 1.5rem;
+  width: 80%;
+  font-size: 1.2rem;
+  color: #333;
+  margin-bottom: 1.5rem;
+  text-align: center;
+  width: 80%;
+}
+
+.interests {
+  color: #333;
+  margin-bottom: 0.5rem;
+}
+
+.interests li {
+  list-style-position: inside;
+  font-size: 1.5rem;
+  text-align: center;
+  margin-bottom: 0.5rem;
+  list-style-type: none;
+}
+
+.divider {
+  border-bottom: 3px solid #8B4513;
+  width: 95%;
+  margin: 1.5rem auto;
+  box-shadow: 0 0 8px #FFD700;
+}
+
+.images-container {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px 0;
+
+}
+
+.image-style {
+  width: 400px;
+  border: 4px solid #8B4513;
+  box-shadow: 0 0 8px #FFD700;
+  margin: 0 10px;
+}
+
+.image-style:hover {
+  border: 4px solid lightgreen;
+}

@@ -45,5 +45,9 @@
 }
 
 .contact-section a:hover {
-  color: darkred;
+  color: darkblue;
+}
+
+.contact-link:hover .contact-icon {
+  transform: scale(1.5);
 }

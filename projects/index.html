@@ -4,16 +4,59 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Projects</title>
-  <link rel="stylesheet" href="./style.css">
+  <title>Akshay Rao</title>
+  <link rel="stylesheet" href="../css/main.css">
+  <link rel="stylesheet" href="../css/projects.css">
+
+
   <link rel="icon" href="./favicon.ico" type="image/x-icon">
 </head>
 
 <body>
-  <main>
-    <h1>Welcome to My Website</h1>
-  </main>
-  <script src="index.js"></script>
+  <nav>
+    <ul>
+      <li><a href="../">Home</a></li>
+      <li><a href="../about/">About</a></li>
+      <li><a href="../projects/" class="active">Projects</a></li>
+      <li><a href="../contact/">Contact</a></li>
+    </ul>
+  </nav>
+  <div class="container">
+    <h1>Projects</h1>
+    <div class="divider"></div>
+
+    <div class="project">
+
+      <h2><a href="https://github.com/akshayrao96/distributed-album-store">Distributed Album Store</a>
+      </h2>
+      <ul>
+        <li>Implemented a distributed system service for an album store, optimized for high throughput</li>
+        <li>Utilized technologies such as Java Servlets, RabbitMQ, AWS, DynamoDB</li>
+        <li>Schema involves Album ID, Album information and number of likes and dislikes posted by users</li>
+      </ul>
+    </div>
+
+    <div class="divider"></div>
+
+    <div class="project">
+      <h2><a href="https://github.com/akshayrao96/chat-program">Chat Program</a></h2>
+      <ul>
+        <li>Developed a real-time chat application with a GUI, supporting multiple users at the same time.</li>
+        <li>Utilized technologies such as Python and relevant libraries</li>
+        <li>Used Python WebSocket and Tkinter for multithreaded user interface</li>
+      </ul>
+    </div>
+    <div class="divider"></div>
+    <div class="project">
+      <h2><a href="https://github.com/akshayrao96">Task Scheduler Simulator</a></h2>
+      <ul>
+        <li>Developed a task scheduler simulator, mimicking a linux scheduler</li>
+        <li>Multiadaptive feedback queue constraints, which uses priorities of queues to schedule tasks</li>
+        <li>Written in C++</li>
+      </ul>
+    </div>
+  </div>
+  <footer></footer>
 </body>
 
 </html>
